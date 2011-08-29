@@ -1,0 +1,96 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass[margin]{res} 
+% the margin option causes section titles to appear to the left of body text 
+\textwidth=5.2in % increase textwidth to get smaller right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Varoun. P}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{https://github.com/varoun}
+ \moveleft.5\hoffset\centerline{varoun@varoun.com}
+ \moveleft.5\hoffset\centerline{+919980499930}
+
+ 
+\begin{resume} 
+ 
+
+\section{Experience}
+ {\bf Tech Yahoo,} Yahoo! Bangalore \hfill Feb 2006 - Dec 2009
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item Service Engineering Lead for various Yahoo! properties including
+   MyBlogLog. Responsibilities included capacity planning, setting up 
+   automated deployment, setting up monitoring, providing oncall production
+   support, and working with developers to ensure that system
+   architecture met production engineering \\ standards.
+ \item Unix System Admin for very large installations of FreeBSD and RHEL.
+   Responsibilities included user management, bringing new hosts online, 
+   troubleshooting performance problems, setting up and administering the 
+   Yahoo! authoritative and recurssive nameservers, administering dns 
+   zone files, administering edge \\ services and geographical load balancing
+   amongst others.
+ \item Incident Manager and Tier2 engineer at the Yahoo! Network Operations 
+   Center / Operations Center. Responsibilities included taking full ownership
+   of production outages, coordinating the efforts of the different teams 
+   involved in the resolution  process and communicating the current status 
+   to senior management and \\ partners.
+   
+ \end{itemize}
+
+ 
+ 
+{\bf Associate Engineer,} TATA Consultancy Services, Madras. \hfill June 2005 - Jan 2006
+ \begin{itemize} \itemsep -2pt %reduce space between items
+ \item Consultant engineer for Motorola. Worked on SCM, automated build and 
+   deployment systems.
+ \item Setup technical controls to ensure SOx compliance. 
+
+ \end{itemize}
+
+{\bf Sr. Tech Executive,} Software Technology Group, Madras. \hfill Dec 2003 - May 2005
+ \begin{itemize} \itemsep -2pt
+ \item Handled RedHat's RHCE training program at STG. STG received the RedHat
+   award for maximum enrolments during this time.
+ \item Consulted with clients on migrating from proprietary application stacks
+   to LAMP. Handled migrations from MS Exchange to open solutions running on 
+   Linux / FreeBSD.
+   
+ \end{itemize}
+
+{\bf Unix System Admin Intern,} DynaSource, Madras. \hfill June 2003 - Nov 2003
+ \begin{itemize} \itemsep -2pt
+ \item Responsible for setup, routine administration and troubleshooting 
+   of LAMP \\ application, email and DNS infrastructure.
+   
+ \end{itemize}
+
+\section{Technical Expertise} 
+ \begin{itemize} \itemsep -2pt
+ \item Unix system administration with specific focus on Linux and FreeBSD.
+ \item Setup, administration and tuning of http (Apache), email (Postfix, Cyrus imapd)
+   DNS (BIND) and Database (MySQL, PostgreSQL, SQLite) servers.
+ \item Engineering internet scale, distributed, and fault tolerrant systems 
+   using a combination of geographical load balancing (Akamai), hardware load 
+   balancers, edge services/caches (Yahoo! Traffic Server) and database replication 
+   amongst others.
+ \item Setup and administration of SNMP and Nagios for infrastructure monitoring.
+ \item Automating routine administration tasks.
+ \item Programming in Common Lisp, Scheme, and Bourne shell.
+   
+ \end{itemize}
+
+\section{Education} 
+Bachelor of Engineering, Instrumentation and Control Systems.\\
+University of Madras, 2003.
+
+
+\end{resume} 
+\end{document} 
